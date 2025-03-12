@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body class="main">
+    <header>
+        <%= title  %>
+    </header>
+    <section>
+        <%= subtitle  %>
+    </section>
+
+    <section>
+        <ul>
+        <% for (i=0; i<names.length; i++) {%>
+
+            <li>
+               <%= names[i] %>
+            </li>
+            
+            <%} %>
+        </ul>
+    </section>
+</body>
+</html>
